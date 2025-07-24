@@ -1,6 +1,6 @@
 import Header from "@/components/layout/Header";
 
-const Home: React.FC = () => {
+const Users: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
       <Header />
@@ -21,4 +21,4 @@ const Home: React.FC = () => {
   )
 }
 
-export default Home;
+export default Users;
