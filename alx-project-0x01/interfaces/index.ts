@@ -19,7 +19,7 @@ export interface UserProps {
     phone:    string;
     website:  string;
     company:  Company;
-    street: string;
+    street?: string;  // Made optional with '?'
 }
 
 export interface Address {
